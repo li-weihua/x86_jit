@@ -20,7 +20,7 @@ endif()
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
 CPMAddPackage("gh:fmtlib/fmt#8.1.1")
 CPMAddPackage("gh:herumi/xbyak#v6.03")
