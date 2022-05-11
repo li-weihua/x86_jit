@@ -26,4 +26,4 @@ CPMAddPackage("gh:fmtlib/fmt#8.1.1")
 CPMAddPackage("gh:herumi/xbyak#v6.03")
 
 add_subdirectory(example1)
-add_subdirectory(xbyak)
+add_subdirectory(xbyak_examples)
